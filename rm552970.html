@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiap Marcus rm552970</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="rm552970.css">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Marcus Fintech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Compras</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Novas compras</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://picsum.photos/800/400" class="d-block w-100" alt="Imagem Aleatória 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/800/400" class="d-block w-100" alt="Imagem Aleatória 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://picsum.photos/800/400" class="d-block w-100" alt="Imagem Aleatória 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="row-container container">
+        <div class="circle"> <img src="https://picsum.photos/400/400" alt="Imagem Aleatória 1">
+        </div>
+        <div class="circle"> <img src="https://picsum.photos/400/400" alt="Imagem Aleatória 2">
+        </div>
+        <div class="circle"> <img src="https://picsum.photos/400/400" alt="Imagem Aleatória 3">
+        </div>
+        <div class="circle"> <img src="https://picsum.photos/400/400" alt="Imagem Aleatória 4">
+        </div>
+    </div>
+    <div class="container gap-3 row-container">
+        <!-- Produto 1 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/400/400" class="card-img-top" alt="Produto 1">
+            <div class="card-body">
+                <h5 class="card-title">Camiseta</h5>
+                <p class="card-text">Camiseta de algodão de alta qualidade.</p>
+                <p class="card-text">Preço: $19.99</p>
+                <button onclick="alert('Parabens, você comprou a Camiseta')" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/400/400" class="card-img-top" alt="Produto 2">
+            <div class="card-body">
+                <h5 class="card-title">Calça Jeans</h5>
+                <p class="card-text">Calça jeans moderna e confortável.</p>
+                <p class="card-text">Preço: $29.99</p>
+                <button onclick="alert('Parabens, você comprou a Calça Jeans')" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/400/400" class="card-img-top" alt="Produto 3">
+            <div class="card-body">
+                <h5 class="card-title">Tênis Esportivo</h5>
+                <p class="card-text">Tênis para esportes e atividades ao ar livre.</p>
+                <p class="card-text">Preço: $39.99</p>
+                <button onclick="alert('Parabens, você comprou o Tênis Esportivo')"
+                    class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="card" style="width: 18rem;">
+            <img src="https://picsum.photos/400/400" class="card-img-top" alt="Produto 4">
+            <div class="card-body">
+                <h5 class="card-title">Mochila</h5>
+                <p class="card-text">Mochila espaçosa para viagens e aventuras.</p>
+                <p class="card-text">Preço: $49.99</p>
+                <button onclick="alert('Parabens, você comprou a Mochila')" class="btn btn-primary">Comprar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Informações de Contato</h5>
+                    <p>Endereço: 1234 Rua Principal</p>
+                    <p>Cidade: Sua Cidade</p>
+                    <p>Telefone: (123) 456-7890</p>
+                    <p>Email: info@seudominio.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Navegação</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Página Inicial</a></li>
+                        <li><a href="#">Produtos</a></li>
+                        <li><a href="#">Carrinho</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Siga-nos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
